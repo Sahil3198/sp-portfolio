@@ -1,0 +1,15 @@
+@import './abstracts/variables';
+
+@import './base/base';
+@import './base/typography';
+@import './base/utilities';
+@import './base/components';
+
+@import './layout/app';
+@import './layout/footer';
+
+@import './pages/about';
+@import './pages/home';
+@import './pages/navbar';
+@import './pages/pageContent';
+@import './pages/root';
