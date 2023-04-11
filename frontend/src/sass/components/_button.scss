@@ -15,13 +15,13 @@
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: $color-primary;
-    border-color: $color-secondary-dark;
+    color: $primary-color-light;
+    background-color: $button-color-light;
+    border-color: $secondary-color-light;
     &:hover {
-        color: $color-black;
-        background-color: $color-secondary;
-        border: 1px solid $color-secondary-dark !important;
+        color: $secondary-color-light;
+        background-color: $button-color-light;
+        border: 1px solid $secondary-color-light !important;
     }
 }
 

@@ -1,9 +1,10 @@
 @import './abstracts/variables';
 
 @import './base/base';
+@import './base/flexLayout';
 @import './base/typography';
 @import './base/utilities';
-@import './base/components';
+
 
 @import './layout/app';
 @import './layout/footer';
@@ -13,3 +14,7 @@
 @import './pages/navbar';
 @import './pages/pageContent';
 @import './pages/root';
+@import './pages/resume';
+@import './pages/knowledge';
+
+@import './components/components';

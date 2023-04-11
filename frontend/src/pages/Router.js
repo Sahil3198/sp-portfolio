@@ -4,6 +4,8 @@ import ErrorPage from '../Components/Error/Error';
 import RootLayout from './Root/Root';
 import Home from './Home/Home';
 import About from './About/About';
+import Resume from './Resume/Resume';
+import Knowledge from './Knowledge/Knowledge';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +17,14 @@ const router = createBrowserRouter([
       {
         path: 'about',
         element: <About />,
+      },
+      {
+        path: 'resume',
+        element: <Resume />,
+      },
+      {
+        path: 'knowledge',
+        element: <Knowledge />,
       },
     ],
   },

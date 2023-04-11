@@ -1,11 +1,11 @@
 import { Outlet } from 'react-router-dom';
 import MainNavigation from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
+import { useState } from 'react';
 
 function RootLayout() {
-
   return (
-    <div>
+    <div className="root">
       <MainNavigation />
       <main>
         <Outlet />

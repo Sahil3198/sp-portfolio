@@ -2,6 +2,12 @@
   position: relative;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  flex-direction: column;  
+  background-color: $background-color-light;
+  color: $secondary-color-light;
+}
+
+#dark .app{
+  background-color: $background-color-dark !important;
+  color: $secondary-color-dark !important;
 }

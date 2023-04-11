@@ -3,8 +3,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import PhoneIcon from '@mui/icons-material/Phone';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 
 const Footer = () => {
@@ -54,17 +52,9 @@ const Footer = () => {
                             <div className="block-23 mb-3">
                                 <ul>
                                     <li>
-                                        <span className="icon"><LocationOnIcon /></span>
-                                        <span className="text">1333, South Park St., Unit 1418, Halifax, NS, B3J 2K9</span>
-                                    </li>
-                                    <li>
-                                        <span className="icon"><PhoneIcon /></span>
-                                        <span className="text">+1 902 412 9680</span>
-                                    </li>
-                                    <li>
                                         <a href="mailto:sahilparekh94@gmail.com">
                                             <span className="icon"><EmailIcon /></span>
-                                            <span className="text">sahilparekh94@gmail.com</span>
+                                            sahilparekh94@gmail.com
                                         </a>
                                     </li>
                                 </ul>
