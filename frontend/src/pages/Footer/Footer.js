@@ -54,17 +54,9 @@ const Footer = () => {
                             <div className="block-23 mb-3">
                                 <ul>
                                     <li>
-                                        <span className="icon"><LocationOnIcon /></span>
-                                        <span className="text">1333, South Park St., Unit 1418, Halifax, NS, B3J 2K9</span>
-                                    </li>
-                                    <li>
-                                        <span className="icon"><PhoneIcon /></span>
-                                        <span className="text">+1 902 412 9680</span>
-                                    </li>
-                                    <li>
                                         <a href="mailto:sahilparekh94@gmail.com">
                                             <span className="icon"><EmailIcon /></span>
-                                            <span className="text">sahilparekh94@gmail.com</span>
+                                            sahilparekh94@gmail.com
                                         </a>
                                     </li>
                                 </ul>

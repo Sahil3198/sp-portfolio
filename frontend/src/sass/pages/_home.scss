@@ -111,7 +111,7 @@ h6,
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 800;
-    color: $color-primary;
+    color: $text-color-light;
     letter-spacing: 4px;
 }
 
@@ -131,7 +131,7 @@ h6,
 }
 
 .slider-text h2 span {
-    color: $color-primary;
+    color: $text-color-light;
     text-decoration: underline;
 }
 
@@ -147,7 +147,7 @@ h6,
 }
 
 .slider-text p strong a {
-    color: #000000;
+    color: $secondary-color-light;
 }
 
 .slider-text .breadcrumbs {
@@ -159,29 +159,29 @@ h6,
 }
 
 .slider-text .breadcrumbs span {
-    color: rgba(0, 0, 0, 0.8);
+    color: $secondary-color-light;
 }
 
 .slider-text .breadcrumbs span i {
-    color: rgba(0, 0, 0, 0.8);
+    color: $secondary-color-light;
 }
 
 .slider-text .breadcrumbs span a {
-    color: #3e64ff;
+    color: $text-color-light;
 }
 
 .slider-text .breadcrumbs span a:hover,
 .slider-text .breadcrumbs span a:focus {
-    color: #3e64ff;
+    color: $text-color-light;
 }
 
 .slider-text .breadcrumbs span a:hover i,
 .slider-text .breadcrumbs span a:focus i {
-    color: #3e64ff;
+    color: $text-color-light;
 }
 
 .slider-text .bread {
     font-weight: 700;
-    color: #000000;
+    color: $secondary-color-light;
     font-size: 60px;
 }

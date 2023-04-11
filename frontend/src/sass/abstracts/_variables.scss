@@ -1,15 +1,15 @@
-$color-white: #fff;
-$color-black: #000000;
-$color-red: #ed4956;
+// $color-white: #fff;
+// $color-black: #000000;
+// $color-red: #ed4956;
 
-$color-grey-1: #999;
-$color-grey-2: #dbdbdb;
-$color-grey-3: #fafafa;
-$color-grey-4: #efefef;
+// $color-grey-1: #999;
+// $color-grey-2: #dbdbdb;
+// $color-grey-3: #fafafa;
+// $color-grey-4: #efefef;
 
 $color-primary: #3e64ff;
-$color-secondary: #0095f6;
-$color-secondary-dark: #00376b;
+// $color-secondary: #0095f6;
+// $color-secondary-dark: #00376b;
 
 $icon-huge-size: 15rem;
 $icon-larger-size: 6rem;
@@ -19,10 +19,33 @@ $icon-small-size: 2rem;
 $icon-tiny-size: 1.3rem;
 
 $footer-height: 10rem;
-$foot-color: rgba(255, 255, 255, 0.7);
+$foot-background-light: #111111;
+$foot-text-light: rgba(255, 255, 255, 0.7);
+$foot-para-light: #999;
+
+$foot-background-dark: #111111;
+$foot-text-dark: rgba(255, 255, 255, 0.7);
+$foot-para-dark: #999;
 
 $twitter-icon: #1DA1F2;
 $facebook-icon: #4267B2;
 $linkedin-icon: #0A66C2;
 $instagram-icon: #C13584;
 $favourite-icon: #E50914;
+
+
+$primary-color-light: #ffffff;
+$secondary-color-light: #111111;
+$background-color-light: #efefef;
+$text-color-light: $color-primary;
+$button-color-light: $color-primary;
+$progress-bar-light: $color-primary;
+$navbar-light: $color-primary;
+
+$primary-color-dark: #111111;
+$secondary-color-dark: #ffffff;
+$background-color-dark: #111111;
+$text-color-dark: $color-primary;
+$button-color-dark: $color-primary;
+$progress-bar-dark: $color-primary;
+$navbar-dark:$color-primary;

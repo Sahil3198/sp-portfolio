@@ -1,0 +1,27 @@
+svg {
+  transition: transform 0.2s ease-in-out;
+}
+
+svg:hover {
+  transform: scale(1.1);
+}
+
+.circle-background,
+.circle-progress {
+  fill: none;
+}
+
+.circle-background {
+  stroke: #dbdbdb;
+}
+
+.circle-progress {
+  stroke: $text-color-light;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#progressInput {
+    margin: 20px auto;
+    width: 100%;
+  }

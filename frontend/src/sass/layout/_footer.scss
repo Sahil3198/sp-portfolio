@@ -1,6 +1,7 @@
 .my-section {
     padding: 7em 0;
     position: relative;
+    bottom: 0;
 }
 
 @media (max-width: 767.98px) {
@@ -11,22 +12,22 @@
 
 .my-footer {
     font-size: 16px;
-    background: $color-black;
+    background: $foot-background-light;
     padding: 7em 0;
     z-index: 0;
-    color: $foot-color;
+    color: $foot-text-light;
     text-align: left;
 
     & p {
-        color: $color-grey-1;
+        color: $foot-para-light;
     }
 
     & a {
-        color: $color-grey-1;
+        color: $foot-para-light;
     }
 
     & a:hover {
-        color: $color-white;
+        color: $secondary-color-light;
     }
 
     &__container {
@@ -63,25 +64,30 @@
 }
 
 .my-footer-widget {
-    & h2 {
+    > h2 {
         font-weight: normal;
-        color: $color-white;
         margin-bottom: 40px;
         font-size: 22px;
         font-weight: 600;
 
     }
 
-    & ul li {
+    > ul li {
         margin-bottom: 10px;
 
-        & a {
-            color: $color-grey-1;
-
-            & span {
-                color: $color-grey-1;
-            }
+        > a {
+            color: $foot-para-light;
         }
+
+      
+
+
+    }
+}
+
+.my-footer{
+     a:hover{
+        color: $primary-color-light;
     }
 }
 
@@ -125,7 +131,7 @@
             }
 
             & :hover {
-                color: $color-white;
+                color: $primary-color-light;
             }
         }
 
@@ -140,7 +146,7 @@
 .footer-heading-2 {
     font-size: 17px;
     font-weight: 400;
-    color: #000000;
+    color: $primary-color-light;
 }
 
 
@@ -160,7 +166,7 @@ a:link {
 }
 
 .block-23 ul li span {
-    color: $color-grey-1;
+    color: $foot-para-light;
 }
 
 .block-23 ul li .icon,
@@ -173,7 +179,7 @@ a:link {
     width: 40px;
     font-size: 18px;
     padding-top: 2px;
-    color: $color-white;
+    color: $primary-color-light;
 }
 
 .list-unstyled {

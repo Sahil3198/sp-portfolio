@@ -1,0 +1,30 @@
+
+.progress-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.progress-bar-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    h4 {
+        color: $progress-bar-light;
+    }
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: $background-color-light;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color:$progress-bar-light;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}

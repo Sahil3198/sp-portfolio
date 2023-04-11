@@ -1,15 +1,14 @@
-import React, { useEffect } from 'react';
+import React, { useContext } from 'react';
 import { RouterProvider } from 'react-router-dom';
-import { scrollSpy } from 'react-scroll';
 import router from '../../pages/Router';
-function App() {
+import { ThemeContext } from '../../context/ThemeContext';
 
-  useEffect(() => {
-    scrollSpy.update();
-  }, []);
+const App = () => {
+
+  const { theme } = useContext(ThemeContext);
 
   return (
-    <div className="app">
+    <div className="app" id={theme}>
       <RouterProvider router={router} />
     </div>
   );
