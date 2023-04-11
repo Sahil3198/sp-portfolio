@@ -33,7 +33,7 @@ const MainNavigation = () => {
           </div>
 
         </div>
-        <MaterialUISwitch sx={{ m: 1 }} defaultChecked onClick={toggleTheme} />
+        <MaterialUISwitch sx={{ m: 1 }} onClick={toggleTheme} />
       </nav>
     </div>
   );
