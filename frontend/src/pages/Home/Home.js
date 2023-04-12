@@ -15,16 +15,15 @@ const Home = () => {
   }, [textList.length]);
 
     return (
-        <section className="hero-wrap justify-content-center align-items-center" id="home-section">
-            <div className="overlay"></div>
+        <section className="hero-wrap" id="home-section">
             <div className="container">
-                <div className="row no-gutters slider-text justify-content-center align-items-center">
-                    <div className="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+                <div className="row slider-text justify-content-center align-items-center">
+                    <div className="col-lg-8 col-md-6">
                         <div className="text text-center">
                             <span className="subheading">Hey! I am</span>
                             <h1>Sahil Parekh</h1>
                             <h2>I'm a&nbsp;
-                                <span className="txt-rotate" data-period="2000" data-rotate={JSON.stringify(textList)}>{textList[textIndex]}</span>
+                                <span className="txt-rotate" data-rotate={JSON.stringify(textList)}>{textList[textIndex]}</span>
                             </h2>
                         </div>
                     </div>

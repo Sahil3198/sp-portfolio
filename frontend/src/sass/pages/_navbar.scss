@@ -11,7 +11,7 @@
     padding: 0.5rem 1rem;
     color: $secondary-color-light;
     background-color: $primary-color-light;
-
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
     >.container {
         display: flex;
         flex-wrap: wrap;
@@ -38,16 +38,17 @@
     position: relative;
     z-index: 0;
     color: $secondary-color-light;
-
-    >span {
+    transition: color 0.5s ease-in-out;
+    span {
         color: $primary-color-light;
+        transition: color 0.5s ease-in-out;
     }
 }
 
 #dark .navbar-brand {
     color: $secondary-color-dark;
-
-    >span {
+    
+    span {
         color: $primary-color-dark;
     }
 }
@@ -82,7 +83,7 @@
             color: $secondary-color-light;
             font-weight: 400;
             opacity: 1 !important;
-
+            transition: color 0.5s ease-in-out;
             >span {
                 position: relative;
                 padding-bottom: 2px;

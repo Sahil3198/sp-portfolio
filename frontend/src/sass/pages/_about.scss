@@ -56,11 +56,11 @@
     position: relative;
     margin: auto;
 
-    >h2 {
+    h2 {
         font-size: 50px;
         font-weight: 700;
 
-        >span {
+        span {
             font-weight: 400;
         }
     }
@@ -91,13 +91,24 @@
 
             &:first-child {
                 font-weight: 600;
-                color: $secondary-color-light;
                 width: 130px;
             }
         }
     }
+
+
 }
 
 .about-email {
-    color: $secondary-color-light;
+    color: $secondary-color-light !important;
+    transition: color 0.5s ease-in-out;
+}
+
+#dark .about-email {
+    color: $secondary-color-dark !important;
+}
+
+.counter-wrap {
+    display: flex;
+    justify-content: center;
 }
