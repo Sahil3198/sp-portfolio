@@ -18,12 +18,17 @@ const About = () => {
                                     <li className="d-flex"><span>Name:</span> <span>Sahil Parekh</span></li>
                                     <li className="d-flex"><span>Date of birth:</span> <span>January 03</span></li>
                                     <li className="d-flex"><span>Address:</span> <span>Halifax, Canada</span></li>
-                                    <li className="d-flex"><span>Email:</span> <span><a href="mailto:sahilparekh94@gmail.com">
-                                        <span classNameName="about-email">sahilparekh94@gmail.com</span></a></span></li>
+                                    <li className="d-flex"><span>Email:</span>
+                                        <span>
+                                            <a href="mailto:sahilparekh94@gmail.com">
+                                                <span className="about-email">sahilparekh94@gmail.com</span>
+                                            </a>
+                                        </span>
+                                    </li>
                                 </ul>
                             </div>
 
-                            <div className="counter-wrap col-md-12 justify-content-center">
+                            <div className="counter-wrap col-md-12">
                                 <div className="text">
                                     <p>
                                         <a href="https://drive.google.com/file/d/1JPkUD7i7nEws_0kG3Yar4xC-ePk6jZHp/view?usp=share_link" class="btn btn-primary py-3 px-3" target="_blank" rel="noreferrer">

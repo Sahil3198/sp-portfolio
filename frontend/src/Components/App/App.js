@@ -8,7 +8,7 @@ const App = () => {
   const { theme } = useContext(ThemeContext);
 
   return (
-    <div className="app" id={theme}>
+    <div className="app">
       <RouterProvider router={router} />
     </div>
   );

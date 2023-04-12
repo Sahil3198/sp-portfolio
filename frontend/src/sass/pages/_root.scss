@@ -8,4 +8,13 @@
 main {
   height: 90vh; /* Set height of main */
   flex: 1; /* Set the main section to take up remaining space */
+  background-color: $background-color-light;
+  color: $secondary-color-light;
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+main#dark{
+  background-color: $background-color-dark !important;
+  color: $secondary-color-dark !important;
+  
 }
