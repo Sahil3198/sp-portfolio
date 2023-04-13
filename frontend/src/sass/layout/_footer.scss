@@ -17,7 +17,7 @@
     z-index: 0;
     color: $foot-text-light;
     text-align: left;
-
+    
     & p {
         color: $foot-para-light;
     }
@@ -89,6 +89,11 @@
      a:hover{
         color: $primary-color-light;
     }
+}
+
+#dark.my-footer{
+    background: $foot-background-dark;
+    //border-top: 1px solid white;
 }
 
 .list-icon-social {

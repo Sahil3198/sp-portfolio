@@ -4,10 +4,13 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import { useContext } from 'react';
+import { ThemeContext } from '../../context/ThemeContext';
 
 const Footer = () => {
+    const { theme } = useContext(ThemeContext);
     return (
-        <footer className="my-footer my-section">
+        <footer className="my-footer my-section" id={theme}>
             <div className="my-footer__container">
                 <div className="row mb-5">
                     <div className="col-md">
