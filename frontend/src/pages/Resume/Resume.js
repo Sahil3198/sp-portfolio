@@ -50,7 +50,7 @@ const Resume = () => {
                                     <span className="date float-right">Jan 2022 – April 2023</span>
                                     <h2>Master of Applied Computer Science</h2>
                                     <span className="position">Dalhousie University</span>
-                                    <span className="float-right">GPA: 3.89</span>
+                                    <span className="gpa float-right">GPA: 3.89</span>
                                     <p className="mt-3">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                                 </div>
                             </div>
@@ -62,6 +62,7 @@ const Resume = () => {
                                     <span className="date float-right">Aug 2015 - May 2019</span>
                                     <h2>Bachelor of Engineering in Computer Engineering</h2>
                                     <span className="position">Gujarat Technological University</span>
+                                    <span className="gpa float-right">GPA: 3.46</span>
                                     <p className="mt-3">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                                 </div>
                             </div>

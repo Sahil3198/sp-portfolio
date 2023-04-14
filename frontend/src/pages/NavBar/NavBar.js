@@ -33,21 +33,20 @@ const MainNavigation = () => {
               <li className="nav-item"><NavLink to="/" className="nav-link" ><span>Home</span></NavLink></li>
               <li className="nav-item"><NavLink to="about" className="nav-link"><span>About</span></NavLink></li>
               <li className="nav-item"><NavLink to="resume" className="nav-link"><span>Resume</span></NavLink></li>
-              <li className="nav-item"><NavLink to="services" className="nav-link"><span>Services</span></NavLink></li>
-              <li className="nav-item"><NavLink to="proejects" className="nav-link"><span>Projects</span></NavLink></li>
+              <li className="nav-item"><NavLink to="projects" className="nav-link"><span>Projects</span></NavLink></li>
               <li className="nav-item"><NavLink to="blog" className="nav-link"><span>Blogs</span></NavLink></li>
               <li className="nav-item"><NavLink to="contact" className="nav-link"><span>Contact</span></NavLink></li>
             </ul>
           </div>
+          
+          <div className="right">
           <div className="theme-icon">
             <MaterialUISwitch sx={{ m: 1 }} onClick={toggleTheme} />
           </div>
-          <div className="right">
             <button className="navbar-toggler" type="button" onClick={handleMenuToggle} aria-label="Toggle navigation" ref={menuRef} >
               <span className="dropdown-menu"><MenuIcon /></span>
             </button>
           </div>
-
         </div>
       </nav>
     </div>
