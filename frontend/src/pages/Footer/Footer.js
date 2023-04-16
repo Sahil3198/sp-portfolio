@@ -5,7 +5,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { useContext, useEffect } from 'react';
+import { useContext } from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
 import { Link } from 'react-router-dom';
 

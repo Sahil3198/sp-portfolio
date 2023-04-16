@@ -1,7 +1,6 @@
 import React from "react";
 
-const CircularProgressBar = ({ sqSize, strokeWidth, percentage, image }) => {
-    console.log(image);
+const CircularProgressBar = ({ sqSize, strokeWidth, percentage, image, strokeColor, imageColor }) => {
     const radius = (sqSize - strokeWidth) / 2;
     const viewBox = `0 0 ${sqSize} ${sqSize}`;
     const dashArray = radius * Math.PI * 2;
@@ -26,7 +25,8 @@ const CircularProgressBar = ({ sqSize, strokeWidth, percentage, image }) => {
                 transform={`rotate(-90 ${sqSize / 2} ${sqSize / 2})`}
                 style={{
                     strokeDasharray: dashArray,
-                    strokeDashoffset: dashOffset
+                    strokeDashoffset: dashOffset,
+                    stroke:strokeColor
                 }} />
             <image
                 xlinkHref={image}
@@ -34,6 +34,7 @@ const CircularProgressBar = ({ sqSize, strokeWidth, percentage, image }) => {
                 y={sqSize / 4}
                 width={sqSize / 2}
                 height={sqSize / 2}
+                filter={imageColor}
             />
         </svg>);
 };

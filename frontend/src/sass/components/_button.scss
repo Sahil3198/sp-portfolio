@@ -19,9 +19,7 @@
     background-color: $button-color-light;
     border-color: $secondary-color-light;
     &:hover {
-        color: $secondary-color-light;
-        background-color: $button-color-light;
-        border: 1px solid $secondary-color-light !important;
+        background-color: #607ffc !important;
     }
 }
 
