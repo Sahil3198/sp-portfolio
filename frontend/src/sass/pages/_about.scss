@@ -1,9 +1,5 @@
 .about {
-    height: 100vh;
-
     .about-container {
-        height: 100vh;
-
         .about-left {
             padding: 20px;
             height: 100vh;
@@ -30,7 +26,6 @@
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center center;
-                    background-image: url('../../../public/images/About.jpg');
                 }
             }
         }
@@ -66,6 +61,27 @@
     }
 }
 
+//Mobile
+@media (max-width: 600px) {
+    .about {
+        .about-container {
+            .about-left {
+                .img-about {
+                    border-radius: 50% ;
+                    padding: 0 ;
+                    background-color: black ;
+
+                    .img {
+                        border-radius: 50px ;
+                        background-image: url('../../../public/images/About.jpg');
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Tablet
 @media (max-width: 767.98px) {
     .heading-section h2 {
         font-size: 38px;
@@ -95,8 +111,6 @@
             }
         }
     }
-
-
 }
 
 .about-email {

@@ -12,6 +12,7 @@
     color: $secondary-color-light;
     background-color: $primary-color-light;
     transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+
     >.container {
         display: flex;
         flex-wrap: wrap;
@@ -39,6 +40,7 @@
     z-index: 0;
     color: $secondary-color-light;
     transition: color 0.5s ease-in-out;
+
     span {
         color: $primary-color-light;
         transition: color 0.5s ease-in-out;
@@ -47,7 +49,7 @@
 
 #dark .navbar-brand {
     color: $secondary-color-dark;
-    
+
     span {
         color: $primary-color-dark;
     }
@@ -84,6 +86,7 @@
             font-weight: 400;
             opacity: 1 !important;
             transition: color 0.5s ease-in-out;
+
             >span {
                 position: relative;
                 padding-bottom: 2px;
@@ -122,6 +125,13 @@
 
 @media only screen and (max-width: 991.98px) {
 
+    .left {
+        order: 0;
+    }
+
+    .right {
+        display: flex;
+    }
 
     .navbar-toggler {
         display: block;
@@ -131,6 +141,8 @@
         background-color: transparent;
         border: 1px solid transparent;
         border-radius: 0.25rem;
+        color: $secondary-color-light;
+        transition: color 0.5s ease-in-out;
     }
 
     .navbar-toggler:hover,
@@ -140,12 +152,13 @@
     }
 
     .navbar-collapse {
-        position: fixed;
+        position: absolute;
         display: block;
         top: 10vh;
-        min-width: 200px;
+        width: 100%;
         right: 0;
-        background-color: $primary-color-light;
+        text-align: center;
+        background-color: $color-grey;
         overflow-y: auto;
         transition: all 0.3s ease-in-out;
         opacity: 0;
@@ -156,13 +169,19 @@
     .navbar-collapse.show {
         opacity: 1;
         visibility: visible;
-
     }
 
     .navbar-nav {
         display: block;
-        background-color: $background-color-light;
         padding: 12px 16px;
     }
 
+    .nav-item{
+        margin-bottom: 20px;
+    }
+
+}
+
+#dark .dropdown-menu {
+    color: $secondary-color-dark;
 }
