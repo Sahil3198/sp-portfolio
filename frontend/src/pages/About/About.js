@@ -1,7 +1,6 @@
+import { PROFILE_PIC } from '../../config/constants';
 
 const About = () => {
-
-    const profileImage = "https://firebasestorage.googleapis.com/v0/b/sahil-portfolio-7727b.appspot.com/o/About%2FAbout.jpg?alt=media&token=a152813b-203d-4c54-b577-668397c14a71";
 
     return (
         <section className="about my-about-section " id="about-section">
@@ -9,14 +8,18 @@ const About = () => {
                 <div className="row d-flex no-gutters">
                     <div className="about-left col-sm col-md-6 col-lg-6 d-flex">
                         <div className="img-about">
-                            <div className="img" style={{ backgroundImage: `url(${profileImage})` }} />
+                            <div className="img" style={{ backgroundImage: `url(${PROFILE_PIC})` }} />
                         </div>
                     </div>
                     <div className="about-right col-sm col-md-6 col-lg-6 pl-md-5 d-flex">
                         <div className="row">
                             <div className="col-md-12 heading-section">
                                 <h2 className="mb-4">About Me</h2>
-                                <p className="about-para mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                                <p align="justify" className="about-para mb-4"><b>Hello,</b> my name is <b>Sahil</b>! 
+                                I am a dynamic and innovative software developer with two years of experience. 
+                                I am passionate about creating elegant and efficient software solutions that solve complex problems and streamline business operations. 
+                                My expertise in programming languages such as <b>Java</b> and <b>JavaScript</b> have enabled me to design and develop robust applications that meet the needs of clients across diverse industries. 
+                                I have also honed my skills in <b>HTML</b>, <b>CSS</b> and <b>ReactJS</b> to deliver captivating and user-friendly interfaces.</p>
                                 <ul className="about-info">
                                     <li className="d-flex"><span>Name:</span> <span>Sahil Parekh</span></li>
                                     <li className="d-flex"><span>Date of birth:</span> <span>January 03</span></li>

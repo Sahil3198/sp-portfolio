@@ -2,15 +2,13 @@
     .about-container {
         .about-left {
             padding: 20px;
-            height: 100vh;
+            height: 90vh;
 
             .img-about {
                 width: 100%;
-
-                background-color: #fff;
                 border-radius: 10px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-                padding: 20px;
+                margin: 20px;
                 text-align: center;
                 z-index: 0;
                 position: relative;
@@ -32,9 +30,13 @@
 
         .about-right {
             padding: 20px;
-            height: 100vh;
+            height: 90vh;
         }
     }
+}
+
+#dark .img-about {
+    background-color: #333333;
 }
 
 .my-about-section {
@@ -54,7 +56,7 @@
     h2 {
         font-size: 50px;
         font-weight: 700;
-
+        color: $color-primary;
         span {
             font-weight: 400;
         }
@@ -67,13 +69,12 @@
         .about-container {
             .about-left {
                 .img-about {
-                    border-radius: 50% ;
-                    padding: 0 ;
-                    background-color: black ;
+                    border-radius: 50%;
+                    padding: 0;
+                    background-color: black;
 
                     .img {
-                        border-radius: 50px ;
-                        background-image: url('../../../public/images/About.jpg');
+                        border-radius: 50px;
                     }
                 }
             }
@@ -89,7 +90,6 @@
 }
 
 .about-para {
-    text-align: left;
     margin-inline-start: 10px;
 }
 
