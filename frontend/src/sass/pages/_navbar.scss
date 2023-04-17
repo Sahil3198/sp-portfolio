@@ -158,7 +158,7 @@
         width: 100%;
         right: 0;
         text-align: center;
-        background-color: $color-grey;
+        background-color: $navbar-menu-light;
         overflow-y: auto;
         transition: all 0.3s ease-in-out;
         opacity: 0;
@@ -184,4 +184,8 @@
 
 #dark .dropdown-menu {
     color: $secondary-color-dark;
+}
+
+#dark .navbar-collapse{
+    background-color: $navbar-menu-dark;
 }
