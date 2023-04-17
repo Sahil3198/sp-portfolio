@@ -68,13 +68,14 @@
     .about {
         .about-container {
             .about-left {
+                height: 50vh;
                 .img-about {
-                    border-radius: 50%;
+                    border-radius: 70%;
                     padding: 0;
                     background-color: black;
 
                     .img {
-                        border-radius: 50px;
+                        border-radius: 70px;
                     }
                 }
             }
