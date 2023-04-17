@@ -16,10 +16,10 @@
 
 .btn-primary {
     color: $primary-color-light;
-    background-color: $button-color-light;
+    background-color: $button-color-primary;
     border-color: $secondary-color-light;
     &:hover {
-        background-color: #607ffc !important;
+        background-color: $button-color-secondary !important;
     }
 }
 

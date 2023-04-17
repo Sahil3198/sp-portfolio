@@ -28,39 +28,7 @@
 
     & a:hover {
         color: $secondary-color-light;
-    }
-
-    &__container {
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    @media (min-width: 576px) {
-        &__container {
-            max-width: 540px;
-        }
-    }
-
-    @media (min-width: 768px) {
-        &__container {
-            max-width: 720px;
-        }
-    }
-
-    @media (min-width: 992px) {
-        &__container {
-            max-width: 960px;
-        }
-    }
-
-    @media (min-width: 1200px) {
-        &__container {
-            max-width: 1140px;
-        }
-    }
+    }    
 }
 
 .my-footer-widget {
@@ -90,7 +58,6 @@
 
 #dark.my-footer {
     background: $foot-background-dark;
-    //border-top: 1px solid white;
 }
 
 .list-icon-social {
@@ -136,8 +103,6 @@
                 color: $primary-color-light;
             }
         }
-
-
     }
 }
 

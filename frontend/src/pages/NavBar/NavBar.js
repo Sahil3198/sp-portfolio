@@ -23,6 +23,12 @@ const MainNavigation = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  const linkStyle= ({ isActive }) => {
+    return { 
+      fontWeight: isActive ? "bold" : "",
+      color: isActive ? "#3e64ff" : "", }
+  }
+
   return (
     <div id={theme}>
       <nav className="navbar navbar-expand-lg" id="navbar_section">
@@ -30,19 +36,19 @@ const MainNavigation = () => {
           <NavLink className="navbar-brand left" to="/"><span>S</span>ahil</NavLink>
           <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} onClick={() => setIsMenuOpen(false)}>
             <ul className="navbar-nav nav ml-auto">
-              <li className="nav-item"><NavLink to="/" className="nav-link" ><span>Home</span></NavLink></li>
-              <li className="nav-item"><NavLink to="about" className="nav-link"><span>About</span></NavLink></li>
-              <li className="nav-item"><NavLink to="resume" className="nav-link"><span>Resume</span></NavLink></li>
-              <li className="nav-item"><NavLink to="projects" className="nav-link"><span>Projects</span></NavLink></li>
-              <li className="nav-item"><NavLink to="blog" className="nav-link"><span>Blogs</span></NavLink></li>
-              <li className="nav-item"><NavLink to="contact" className="nav-link"><span>Contact</span></NavLink></li>
+              <li className="nav-item"><NavLink to="/" className="nav-link" style={linkStyle}><span>Home</span></NavLink></li>
+              <li className="nav-item"><NavLink to="about" className="nav-link" style={linkStyle}><span>About</span></NavLink></li>
+              <li className="nav-item"><NavLink to="resume" className="nav-link" style={linkStyle}><span>Resume</span></NavLink></li>
+              <li className="nav-item"><NavLink to="projects" className="nav-link" style={linkStyle}><span>Projects</span></NavLink></li>
+              {/* <li className="nav-item"><NavLink to="blog" className="nav-link" style={linkStyle}><span>Blogs</span></NavLink></li> */}
+              <li className="nav-item"><NavLink to="contact" className="nav-link" style={linkStyle}><span>Contact</span></NavLink></li>
             </ul>
           </div>
-          
+
           <div className="right">
-          <div className="theme-icon">
-            <MaterialUISwitch sx={{ m: 1 }} onClick={toggleTheme} />
-          </div>
+            <div className="theme-icon">
+              <MaterialUISwitch sx={{ m: 1 }} onClick={toggleTheme} />
+            </div>
             <button className="navbar-toggler" type="button" onClick={handleMenuToggle} aria-label="Toggle navigation" ref={menuRef} >
               <span className="dropdown-menu"><MenuIcon /></span>
             </button>

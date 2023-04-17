@@ -19,12 +19,12 @@ const Footer = () => {
     }
     return (
         <footer className="my-footer my-section " id={theme}>
-            <div className="container">
+            <div className="container footer_container">
                 <div className="row">
                     <div className="col-md">
                         <div className="my-footer-widget mb-4">
                             <h2 className="footer-heading-2">About</h2>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p>Sahil Parekh is a tech enthusiast who thrives on creating elegant and efficient software solutions.</p>
 
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="about">About</Link></li>
                                 <li><Link to="resume">Resume</Link></li>
-                                <li><Link to="blog">Blog</Link></li>
+                                {/* <li><Link to="blog">Blog</Link></li> */}
                                 <li><Link to="contact">Contact</Link></li>
                             </ul>
                         </div>
@@ -76,7 +76,7 @@ const Footer = () => {
                         <p className="copyright">
                             Copyright &copy; All rights reserved | This website is made&nbsp;
                             <span className="favourite-icon"><FavoriteIcon /></span> by&nbsp;
-                            <Link to="https://sahilparekh.com" target="_blank" rel="noreferrer">
+                            <Link to="https://parekhsahil.com" target="_blank" rel="noreferrer">
                                 Sahil Parekh
                             </Link>
                         </p>

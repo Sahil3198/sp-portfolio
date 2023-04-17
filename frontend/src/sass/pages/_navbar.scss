@@ -87,12 +87,12 @@
             opacity: 1 !important;
             transition: color 0.5s ease-in-out;
 
-            >span {
+            span {
                 position: relative;
                 padding-bottom: 2px;
             }
 
-            >span::before {
+            span::before {
                 content: "";
                 position: absolute;
                 width: 100%;
@@ -107,7 +107,7 @@
         }
 
         .nav-link:hover {
-            >span:before {
+            span:before {
                 visibility: visible;
                 transform: scaleX(1);
             }
