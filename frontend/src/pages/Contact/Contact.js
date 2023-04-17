@@ -13,13 +13,13 @@ const Contact = () => {
     return (
         <section className="contact">
             <div className="container">
-                <div className="row no-gutters">
-                    <div className="col-md-6 d-flex">
+                <div className="row d-flex no-gutters">
+                    <div className="col-sm col-md-6 col-lg-6 d-flex contact-left">
                         <div className="img-about">
                             <div className="img" style={{ backgroundImage: `url(${PROFILE_PIC})` }} />
                         </div>
                     </div>
-                    <div className="col-md-6 d-flex">
+                    <div className="col-sm col-md-6 col-lg-6 d-flex">
                         <form onSubmit={handleSubmit} className="p-4 p-md-5 contact-form">
                             <input type="text"
                                 className="form-control"
