@@ -8,7 +8,7 @@ const Project = () => {
             <div className="container">
                 <h2 className="heading">Projects</h2>
                 <div className="row mb-5">
-                    <div className="col-md-12 mb-5 d-flex justify-content-center">
+                    <div className="col-md col-md-12 mb-5 d-flex justify-content-center">
                         <div className="project-card">
                             <div className="project-title">
                                 <h2 className="font-weight-bold text-center">BidnBargain</h2>
