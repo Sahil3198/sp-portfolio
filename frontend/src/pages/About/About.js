@@ -37,7 +37,7 @@ const About = () => {
                             <div className="counter-wrap col-md-12">
                                 <div className="text">
                                     <p>
-                                        <a href="https://drive.google.com/file/d/1JPkUD7i7nEws_0kG3Yar4xC-ePk6jZHp/view?usp=share_link" className="btn btn-primary py-3 px-3" target="_blank" rel="noreferrer">
+                                        <a href="https://drive.google.com/file/d/1vMCGFfElyMFOvzX3uqRYdpNUN33COsWc/view?usp=drive_link" className="btn btn-primary py-3 px-3" target="_blank" rel="noreferrer">
                                             Download Resume
                                         </a>
                                     </p>

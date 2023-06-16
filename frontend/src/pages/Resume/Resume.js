@@ -79,7 +79,7 @@ const Resume = () => {
                                     </div>
                                     <div className="header-text">
                                         <span className="date float-right">Jan 2023 – Present</span>
-                                        <h2>IT Developer Co-op</h2>
+                                        <h2>IT Developer</h2>
                                         <span className="position">Canada Revenue Agency</span>
                                     </div>
                                 </div>
