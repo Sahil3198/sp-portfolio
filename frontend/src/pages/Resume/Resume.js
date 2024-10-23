@@ -85,6 +85,9 @@ const Resume = () => {
                                 </div>
                                 <div className="card-body">
                                     <ul>
+                                        <li>Skilled in Java programming, with experience building reliable and efficient applications, using common data structures and design patterns to improve performance of EVMF application.</li>
+                                        <li>Experience with MySQL, including database design, writing optimized queries, stored procedures, and integrating databases with Java applications using JDBC.</li>
+                                        <li>Unit testing and mocking with JUnit and Mockito, writing robust and maintainable test cases to validate code functionality and ensure high test coverage in Java applications</li>
                                         <li>Contributed to the development of new features and enhancements of EVMF applications of CRA, which are developed using Java to create templates of documents sent by CRA to users.</li>
                                         <li>Researched and evaluated methods and techniques to solve problems of application, collaborating closely with other members of the development team.</li>
                                         <li>Utilized Agile development methodologies to deliver high-quality Java software in a timely manner, ensuring that projects are completed within budget and to the satisfaction of stakeholders.</li>

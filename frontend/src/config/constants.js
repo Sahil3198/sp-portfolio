@@ -1,7 +1,7 @@
 module.exports = {
     BIDNBARGAIN_SS: "https://firebasestorage.googleapis.com/v0/b/sahil-portfolio-7727b.appspot.com/o/Projects%2FBidnBargain.png?alt=media&token=716b2788-fa04-4e1b-abc5-3e2908374726",
-    BIDNBARGAIN_URL: "http://www.bidnbargain.com",
-    PROFILE_PIC: "https://firebasestorage.googleapis.com/v0/b/sahil-portfolio-7727b.appspot.com/o/About%2FAbout.jpg?alt=media&token=a152813b-203d-4c54-b577-668397c14a71",
+    BIDNBARGAIN_URL: "https://bnb-fcg1.onrender.com",
+    PROFILE_PIC: "https://firebasestorage.googleapis.com/v0/b/sahil-portfolio-7727b.appspot.com/o/About%2FTemp.jpg?alt=media&token=f628ad54-c805-4467-b3cd-606cebf7d7ad",
     JAVA_LOGO: "https://firebasestorage.googleapis.com/v0/b/sahil-portfolio-7727b.appspot.com/o/Logo%2Fjava-logo.svg?alt=media&token=6cab8d59-b0c4-476a-a5eb-cbeb5ee2bb8c",
     JAVASCRIPT_LOGO: "https://firebasestorage.googleapis.com/v0/b/sahil-portfolio-7727b.appspot.com/o/Logo%2Fjavascript-logo.svg?alt=media&token=0cc38979-130f-4871-8ebf-b81d9c8e9350",
     HTML_LOGO: "https://firebasestorage.googleapis.com/v0/b/sahil-portfolio-7727b.appspot.com/o/Logo%2Fw3_html5-logo.svg?alt=media&token=ed925950-7771-49d1-beb9-39dcc25b5b82",

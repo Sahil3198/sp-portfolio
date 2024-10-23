@@ -6,6 +6,9 @@ const Home = () => {
     const textList = [
       "Developer.",
       "Gamer.",
+      "Boxer.",
+      "Gym Enthusiast",
+      "Calisthenics Lover.",
     ]
 
   useEffect(() => {
