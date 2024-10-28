@@ -86,12 +86,13 @@ const Resume = () => {
                                 <div className="card-body">
                                     <ul>
                                         <li>Skilled in Java programming, with experience building reliable and efficient applications, using common data structures and design patterns to improve performance of EVMF application.</li>
-                                        <li>Experience with MySQL, including database design, writing optimized queries, stored procedures, and integrating databases with Java applications using JDBC.</li>
-                                        <li>Unit testing and mocking with JUnit and Mockito, writing robust and maintainable test cases to validate code functionality and ensure high test coverage in Java applications</li>
-                                        <li>Contributed to the development of new features and enhancements of EVMF applications of CRA, which are developed using Java to create templates of documents sent by CRA to users.</li>
-                                        <li>Researched and evaluated methods and techniques to solve problems of application, collaborating closely with other members of the development team.</li>
-                                        <li>Utilized Agile development methodologies to deliver high-quality Java software in a timely manner, ensuring that projects are completed within budget and to the satisfaction of stakeholders.</li>
-                                        <li>Worked with Git and JIRA to manage version control and project management, ensuring that code changes are properly tracked and documented.</li>
+                                        <li>Improved performance by 30% by designing and deploying microservices with Spring Boot.</li>
+                                        <li>Built RESTful APIs with Spring Boot and Spring Security, achieving 99.9% uptime and secure service access.</li>
+                                        <li>Streamlined deployments with Jenkins, Git, and Maven, cutting deployment time by 60% and enhancing code
+                                        reliability through automated testing with JUnit.</li>
+                                        <li>Applied AOP for modular logging and error handling, enhancing code maintainability by 25%.</li>
+                                        <li>Improved system scalability by integrating Kafka for reliable inter-service messaging, reducing latency in
+                                        high-demand services.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -120,8 +121,7 @@ const Resume = () => {
                                             faster response times and better overall system performance.</li>
                                         <li>Worked on the extensibility framework of BaNCS, which adds new variables to the UI without changing the code
                                             using Object-Oriented design patterns in Java.</li>
-                                        <li>Implemented automated testing using JUnit to ensure high code quality and minimize defects.</li>
-                                        <li>Developed a CI/CD pipeline and delivered solutions quickly with complete automation.</li>
+                                        <li>Boosted performance by 40% with optimized SQL queries and indexing in MySQL.</li>
                                     </ul>
                                 </div>
                             </div>

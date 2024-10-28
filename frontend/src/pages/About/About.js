@@ -16,7 +16,7 @@ const About = () => {
                             <div className="col-md-12 heading-section">
                                 <h2 className="mb-4">About Me</h2>
                                 <p align="justify" className="about-para mb-4"><b>Hello,</b> my name is <b>Sahil</b>! 
-                                I am a dynamic and innovative software developer with two years of experience. 
+                                I am a dynamic and innovative software developer with more than <b>3 years</b> of experience. 
                                 I am passionate about creating elegant and efficient software solutions that solve complex problems and streamline business operations. 
                                 My expertise in programming languages such as <b>Java</b> and <b>JavaScript</b> have enabled me to design and develop robust applications that meet the needs of clients across diverse industries. 
                                 I have also honed my skills in <b>HTML</b>, <b>CSS</b> and <b>ReactJS</b> to deliver captivating and user-friendly interfaces.</p>
@@ -34,7 +34,7 @@ const About = () => {
                                 </ul>
                             </div>
 
-                            <div className="counter-wrap col-md-12">
+                            {/* <div className="counter-wrap col-md-12">
                                 <div className="text">
                                     <p>
                                         <a href="https://drive.google.com/file/d/1CYrOLeJUbV45Qs8DAV6BYGOQub3UN8Dp/view?usp=sharing" className="btn btn-primary py-3 px-3" target="_blank" rel="noreferrer">
@@ -42,7 +42,7 @@ const About = () => {
                                         </a>
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
