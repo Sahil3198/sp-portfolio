@@ -16,14 +16,14 @@ const About = () => {
                             <div className="col-md-12 heading-section">
                                 <h2 className="mb-4">About Me</h2>
                                 <p align="justify" className="about-para mb-4"><b>Hello,</b> my name is <b>Sahil</b>! 
-                                I am a dynamic and innovative software developer with more than <b>3 years</b> of experience. 
+                                I am a dynamic and innovative software developer with more than <b>3.5 years</b> of experience. 
                                 I am passionate about creating elegant and efficient software solutions that solve complex problems and streamline business operations. 
                                 My expertise in programming languages such as <b>Java</b> and <b>JavaScript</b> have enabled me to design and develop robust applications that meet the needs of clients across diverse industries. 
                                 I have also honed my skills in <b>HTML</b>, <b>CSS</b> and <b>ReactJS</b> to deliver captivating and user-friendly interfaces.</p>
                                 <ul className="about-info">
                                     <li className="d-flex"><span>Name:</span> <span>Sahil Parekh</span></li>
                                     <li className="d-flex"><span>Date of birth:</span> <span>January 03</span></li>
-                                    <li className="d-flex"><span>Address:</span> <span>Halifax, Canada</span></li>
+                                    <li className="d-flex"><span>Address:</span> <span>Toronto, Canada</span></li>
                                     <li className="d-flex"><span>Email:</span>
                                         <span>
                                             <a href="mailto:sahilparekh94@gmail.com">

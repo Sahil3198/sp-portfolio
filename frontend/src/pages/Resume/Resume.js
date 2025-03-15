@@ -78,7 +78,24 @@ const Resume = () => {
                                         <span className="work-icon"><WorkIcon /></span>
                                     </div>
                                     <div className="header-text">
-                                        <span className="date float-right">Jan 2023 – Present</span>
+                                        <span className="date float-right">Feb 2025 – Present</span>
+                                        <h2>Java Developer</h2>
+                                        <span className="position">Deloitte</span>
+                                    </div>
+                                </div>
+                                <div className="card-body">
+                                    <ul>
+                                        <li>Skilled in Java programming, with experience building reliable and efficient applications, using common data structures and design patterns to improve performance of EVMF application.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="resume-card mb-5">
+                                <div className="card-header">
+                                    <div className="icon">
+                                        <span className="work-icon"><WorkIcon /></span>
+                                    </div>
+                                    <div className="header-text">
+                                        <span className="date float-right">Jan 2023 – Jan 2025</span>
                                         <h2>IT Developer</h2>
                                         <span className="position">Canada Revenue Agency</span>
                                     </div>
