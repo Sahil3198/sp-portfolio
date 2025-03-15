@@ -85,7 +85,7 @@ const Resume = () => {
                                 </div>
                                 <div className="card-body">
                                     <ul>
-                                        <li>Skilled in Java programming, with experience building reliable and efficient applications, using common data structures and design patterns to improve performance of EVMF application.</li>
+                                        <li>Skilled in Java programming, with experience building reliable and efficient applications, using common data structures and design patterns to improve performance of application.</li>
                                     </ul>
                                 </div>
                             </div>
