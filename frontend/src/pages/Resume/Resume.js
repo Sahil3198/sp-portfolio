@@ -79,8 +79,8 @@ const Resume = () => {
                                     </div>
                                     <div className="header-text">
                                         <span className="date float-right">Feb 2025 – Present</span>
-                                        <h2>Java Developer</h2>
-                                        <span className="position">Deloitte</span>
+                                        <h2>Consultant</h2>
+                                        <span className="position">Deloitte Inc.</span>
                                     </div>
                                 </div>
                                 <div className="card-body">
@@ -121,7 +121,7 @@ const Resume = () => {
                                     <div className="header-text">
                                         <span className="date float-right">Feb 2020 – Nov 2021</span>
                                         <h2>Systems Engineer</h2>
-                                        <span className="position">Tata Consultancy Services</span>
+                                        <span className="position">Tata Consultancy Services Limited</span>
                                     </div>
                                 </div>
                                 <div className="card-body">
