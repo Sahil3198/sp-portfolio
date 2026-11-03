@@ -85,7 +85,21 @@ const Resume = () => {
                                 </div>
                                 <div className="card-body">
                                     <ul>
-                                        <li>Skilled in Java programming, with experience building reliable and efficient applications, using common data structures and design patterns to improve performance of application.</li>
+                                        <li>Take end-to-end ownership of a Spring Boot mortgage application, including solution delivery, enhancements, production
+support, defect resolution, and ongoing reliability for internal users.</li>
+<li>Designed and optimized precision-sensitive mortgage calculation logic and workflows, reducing processing time by 50%
+while maintaining accurate financial results for daily business operations.</li>
+<li>Developed a failed-request handling mechanism to support recovery and continuity of processing, improving application
+resilience and supporting uptime.</li>
+<li>Investigate production incidents and recurring defects across interconnected enterprise applications; perform root-cause
+analysis and implement fixes to reduce repeat failures and service disruption.</li>
+<li>Design REST APIs, reusable Java components, and application integrations using internal enterprise technologies, Kafka, and
+Redis to support communication between distributed services.</li>
+<li>Apply TDD, JUnit, Mockito, code reviews, and maintainable design practices to validate calculation logic, prevent
+regressions, and improve software quality.</li>
+<li>Coordinate application deployment and release activities using OpenShift, Lightspeed, and Harness CI/CD while delivering
+sprint commitments with cross-functional Agile teams.</li>
+<li>Use GitHub Copilot to support development and troubleshooting, reviewing and testing generated code before adoption.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -96,20 +110,21 @@ const Resume = () => {
                                     </div>
                                     <div className="header-text">
                                         <span className="date float-right">Jan 2023 – Jan 2025</span>
-                                        <h2>IT Developer</h2>
+                                        <h2>IT Analyst/Developer</h2>
                                         <span className="position">Canada Revenue Agency</span>
                                     </div>
                                 </div>
                                 <div className="card-body">
                                     <ul>
-                                        <li>Skilled in Java programming, with experience building reliable and efficient applications, using common data structures and design patterns to improve performance of EVMF application.</li>
-                                        <li>Improved performance by 30% by designing and deploying microservices with Spring Boot.</li>
-                                        <li>Built RESTful APIs with Spring Boot and Spring Security, achieving 99.9% uptime and secure service access.</li>
-                                        <li>Streamlined deployments with Jenkins, Git, and Maven, cutting deployment time by 60% and enhancing code
-                                        reliability through automated testing with JUnit.</li>
-                                        <li>Applied AOP for modular logging and error handling, enhancing code maintainability by 25%.</li>
-                                        <li>Improved system scalability by integrating Kafka for reliable inter-service messaging, reducing latency in
-                                        high-demand services.</li>
+                                        <li>Designed and deployed Java/Spring Boot microservices, improving application performance by 30%.</li>
+<li>Developed RESTful APIs using Spring Boot and Spring Security; supported services with reported 99.9% uptime.</li>
+<li>Implemented Circuit Breaker patterns in Java across all microservices to enhance system reliability by introducing robust
+fallback mechanisms</li>
+<li>Streamlined deployments with Docker and automated CI/CD pipelines using Jenkins, Git, and Maven, reducing deployment
+time by 60% and improving scalability and code reliability with JUnit.</li>
+<li>Applied AOP for modular logging and error handling, enhancing code maintainability by 25%.</li>
+<li>Improved system scalability by integrating Kafka for reliable inter-service messaging, reducing latency in high-demand
+services.</li>
                                     </ul>
                                 </div>
                             </div>
